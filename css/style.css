@@ -1,4 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  text-align: center;
+}
+
 body {
-  background: red;
-  color: white;
+}
+
+.icon {
+    font-size: 100px;
 }
