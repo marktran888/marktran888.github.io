@@ -4,13 +4,14 @@
 
 .header {
   text-align: center;
-  color: rgba(19, 65, 70, 0.9);
+  color: rgb(19, 65, 70);
   font-family: 'Lato', sans-serif;
+  /* color: rgb(150, 150, 150); */
 }
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  color: rgba(19, 65, 70, 0.9);
+  color: rgb(19, 65, 70);
 
 }
 
@@ -19,11 +20,56 @@ body {
   margin: 45px;
 }
 
+.iconlist {
+  display: flex;
+  justify-content: center;
+}
+
 section {
   margin: 50px;
 }
 
 a {
   text-decoration: none;
-  color: rgba(19, 65, 70, 0.9);
+  color: rgb(19, 65, 70);
+}
+
+header {
+  padding: 100px 0 150px 0;
+  /* background: radial-gradient(#000, #dcdcdc); */
+  background-color: rgb(240,240,240);
+}
+
+main {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+header h1.header {
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+
+section h3 {
+  /* color: rgb(150, 150, 150); */
+
+  color: rgb(19, 65, 70);
+  font-size: 40px;
+  text-align: center;
+  padding: 50px;
+}
+
+section h3::before,
+section h3::after {
+  content: "\2022" ;
+}
+
+section img {
+  display: block;
+  margin: 40px auto;
+}
+
+section p {
+  text-align: justify;
+  text-justify: center;
 }
