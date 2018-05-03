@@ -23,6 +23,7 @@ body {
 .iconlist {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 section {
@@ -37,11 +38,12 @@ a {
 header {
   padding: 100px 0 150px 0;
   /* background: radial-gradient(#000, #dcdcdc); */
-  background-color: rgb(240,240,240);
+  /* background-color: rgb(240,240,240); */
+  background: radial-gradient(#dcdcdc, #999);
 }
 
 main {
-  width: 1400px;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -72,4 +74,10 @@ section img {
 section p {
   text-align: justify;
   text-justify: center;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
 }
