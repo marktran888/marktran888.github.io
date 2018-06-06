@@ -6,7 +6,6 @@
   text-align: center;
   color: rgb(19, 65, 70);
   font-family: 'Lato', sans-serif;
-
 }
 
 body {
@@ -20,7 +19,7 @@ body {
   margin: 45px;
 }
 
-.iconlist {
+.iconlist ul {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -35,6 +34,7 @@ body {
 }
 
 section {
+  padding-bottom: 100px;
   margin: 50px;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 header {
-  padding: 100px 0 150px 0;
+  padding: 300px 0 400px 0;
   /* background: radial-gradient(#000, #dcdcdc); */
   /* background-color: rgb(240,240,240); */
   background: radial-gradient(#dcdcdc, #999);
@@ -88,14 +88,76 @@ footer {
   display: flex;
   justify-content: center;
   font-size: 30px;
-  padding: 100px 0 150px 0;
   background: radial-gradient(#dcdcdc, #999);
   background: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-attachment: fixed;
 }
 
+.footer {
+  padding: 120px 0;
+}
 
-@media screen and (max-width: 500px) {
+.footer p {
+  padding: 0 80px;
+}
+
+section img {
+  float: right;
+  margin: 0 10px 20px 10px;
+}
+
+p {
+  padding: 20px 10px;
+}
+
+h4 {
+  padding: 30px 10px;
+  font-size: 20px;
+}
+
+h5 {
+  padding: 30px 10px;
+  font-size: 18px;
+}
+
+.half p,
+.half img {
+  width: 45%;
+  padding-top: 0;
+  margin-bottom: 100px;
+}
+
+.mobile img {
+  width: 25%;
+  padding-top: 0;
+  margin-right: 15%;
+}
+
+.half::after {
+  content: "";
+  display: block;
+  clear: both;
+
+}
+
+@media screen and (max-width: 800px) {
+  .half img,
+  .half p {
+    float: none;
+    width: 80%;
+    margin: 20px auto 40px auto;
+  }
+
+  .mobile img {
+    width: 50%;
+  }
+
+  .half {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
   header h1.header {
     font-size: 40px;
     padding-bottom: 20px;
@@ -115,8 +177,9 @@ footer {
     padding: 50px 20px 80px 20px;
   }
 
-  section p {
-    padding: 20px;
+  section {
+    margin: 20px;
+    font-size: 14px;
   }
 
   section div {
