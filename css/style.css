@@ -44,12 +44,17 @@ a {
 }
 
 header {
-  padding: 300px 0 400px 0;
+  padding: 300px 0 50px 0;
   /* background: radial-gradient(#000, #dcdcdc); */
   /* background-color: rgb(240,240,240); */
   background: radial-gradient(#dcdcdc, #999);
   background: url(https://images.pexels.com/photos/19670/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-attachment: fixed;
+}
+
+.arrow {
+  text-align: center;
+  margin: 350px auto 0 auto;
 }
 
 main {
