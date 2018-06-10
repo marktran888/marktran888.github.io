@@ -62,6 +62,12 @@ main {
   margin: 0 auto;
 }
 
+.busyboy {
+  margin: 0 auto;
+  max-height: 200px;
+  float: right;
+}
+
 header h1.header {
   font-size: 50px;
   padding-bottom: 30px;
